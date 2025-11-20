@@ -45,7 +45,7 @@ body {
 
 .book-info p {
     margin: 0 0 1px 0;
-    color: #666;
+    color: rgb(119, 119, 119);
     font-size: 15px
 	
 	
@@ -53,8 +53,8 @@ body {
 
 .price-bar {
     width: 470px;
-    background: #21c467;
-    color: #fff;
+    background: rgb(46, 204, 113);
+    color: rgb(255,255,255);
     text-align: center;
     padding: 8px 0;
     border-radius: 4px;
