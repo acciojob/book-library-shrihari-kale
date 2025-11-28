@@ -4,22 +4,17 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.library {
-    width: 600px;
+.book-library {
+    width: 100%;           /* Required for Cypress */
+    max-width: 650px;
     margin: 40px auto;
     background: #fff;
     border-radius: 8px;
     padding: 15px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
-
 .heading {
-    text-align: center;
-    padding: 12px 0;
-    background: #ededed;
-    margin: 0;
-    border-radius: 6px;
-    font-size: 24px;
+    text-align: center;     /* Required for test */
 }
 
 .book {
